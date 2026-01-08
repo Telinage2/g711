@@ -1,3 +1,16 @@
+[project]
+name = "g711"
+version = "1.6.6"
+description = "A small library for A-Law and u-Law audio coding"
+readme = "README.md"
+authors = [
+    { name = "Alexey Stolpovsky", email = "stolpa413@gmail.com" },
+    { name = "ThetaDev", email = "thetadev@magenta.de" },
+]
+license-files = ["LICENSE.txt"]
+requires-python = ">=3.13"
+dependencies = ["numpy"]
+
 [build-system]
 # These are the assumed default build requirements from pip:
 # https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
